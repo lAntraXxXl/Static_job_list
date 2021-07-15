@@ -1,0 +1,15 @@
+header{
+    display: block;
+    height: 160px;
+    background-image: url("../img/bg-header-desktop.svg");
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--Dark_Cyan);
+    margin-bottom: 80px;
+}
+@media (max-width:375px){
+    header{
+        background-image: url("../img/bg-header-mobile.svg");
+    }
+}
